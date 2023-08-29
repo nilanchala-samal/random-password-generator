@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Open+Sans:wght@300&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,500&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(14, 76, 87);
+}
+.password-box{
+    width: 90%;
+    max-width: 700px;
+    margin: 300px auto;
+}
+.password-box h2{
+    font-size: 40px;
+}
+.password-box p{
+    color: rgb(18, 136, 73);
+    text-decoration: underline;
+}
+.display{
+    height: 60px;
+    margin:20px 0;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.display input {
+    margin: 5px 10px;
+    padding: 10px 5px;
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+}
+.display img{
+    height: 25px;
+    margin-right: 10px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 50px;
+    width: 120px;
+    max-width: 200px;
+    background:rgb(18, 136, 73) ;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #fff;
+}
+button img{
+    width: 20px;
+    margin-right:5px ;
+}
